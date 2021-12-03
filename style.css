@@ -8,14 +8,18 @@ body{
 }
 
 .parent {
+    background-color: #23424a;
+    color: white;
+
     max-width: 80%;
     margin: 0 auto;
-    background-color: #23424a;
-    padding: 50px;
+
+    /* if you can never settings the height set padding instead */
+    padding: 3rem 5rem;
+    /* height: 300px; */
 }
 
+/* kevin challange 1 */
 .child {
-    background-color: #38cfd9;
-    height: 250px;
-   
+    width: 50%;
 }
